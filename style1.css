@@ -1,0 +1,292 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(car3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+#header1{
+    display: flex; 
+    align-items: center; 
+    padding:10px 40px;
+    background-color:forestgreen; 
+    color:darkred;
+}
+#img1{
+    height: 80px; 
+    margin-right: 20px; 
+    border-radius: 30%;
+}
+#heading-1{
+    margin: 10px; 
+    font-size: 40px;
+    font-family: Agency fb;
+}
+#navbar{
+    background-color:crimson;
+    overflow: hidden;
+    text-align: center;
+}
+.anc1{
+    display: block; 
+    float: left; 
+    padding: 15px;
+}
+.side {
+    background-image: url(car2.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 560px;
+    font-size: 30px;
+    position: absolute;
+    border: 10px solid black;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    top: 170px;
+    left: 40px;
+    
+  }
+  
+  .side .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    
+  }
+  .side1 {
+    background-color: wheat;
+    
+    width: 750px;
+    height: 320px;
+    font-size: 30px;
+    position: absolute;
+    border: 10px solid black;
+    top: 170px;
+    left: 480px;
+
+    
+  }
+  
+  .side1 .content1 {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    
+  }
+  #img11{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:20px;
+    border: 5px solid black;
+    
+  }
+  #img12{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:140px;
+    border: 5px solid black;
+    
+  }
+  #img13{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:260px;
+    border: 5px solid black;
+    
+  }
+  #img14{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:380px;
+    border: 5px solid black;
+    
+  }
+  #img15{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:500px;
+    border: 5px solid black;
+    
+  }
+  #img16{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left:620px;
+    border: 5px solid black;
+    
+  }
+  #img17{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:20px;
+    border: 5px solid black;
+    
+  }
+  #img18{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:140px;
+    border: 5px solid black;
+    
+  }
+  #img19{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:260px;
+    border: 5px solid black;
+    
+  }
+  #img20{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:380px;
+    border: 5px solid black;
+    
+  }
+  #img21{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:500px;
+    border: 5px solid black;
+    
+  }
+  #img22{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: 200px;
+    left:620px;
+    border: 5px solid black;
+    
+  }
+  .side2 {
+    background-color: wheat;
+    
+    width: 750px;
+    height: 200px;
+    font-size: 30px;
+    position: absolute;
+    border: 10px solid black;
+    top: 530px;
+    left: 480px;
+
+    
+  }
+  
+  .side2 .content2 {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    
+  }
+#img2{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:20px;
+  border: 5px solid black;
+  
+}
+#img3{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:140px;
+  border: 5px solid black;
+  
+}
+#img4{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:260px;
+  border: 5px solid black;
+  
+}
+#img5{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:380px;
+  border: 5px solid black;
+  
+}
+#img6{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:500px;
+  border: 5px solid black;
+  
+}
+#img7{
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 80px;
+  left:620px;
+  border: 5px solid black;
+  
+}
+.side3 {
+  background-color: wheat;
+  background-image: url(driving_simulator.png);
+  background-size: cover;
+  width: 200px;
+  height: 560px;
+  font-size: 30px;
+  position: absolute;
+  border: 10px solid black;
+  top: 170px;
+  left: 1290px;
+
+  
+}
+
+.side3 .content3 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+}
+
+
