@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Library Management/Contact us
+        </title>
+        <style>
+            body{
+            background-image:url(contactcar.png);
+            background-size: cover;
+        }
+        #header1{
+                display: flex; 
+                align-items: center; 
+                padding:10px 20px;
+                background-color:forestgreen; 
+                color:darkred;
+        }
+        #img1{
+            height: 80px; 
+            margin-right: 20px; 
+            border-radius: 30%;
+        }
+        #heading-1{
+            margin: 10px; 
+            font-size: 40px;
+            font-family: Agency fb;
+        }
+        .map{
+            width: 600px;
+            height: 450px;
+            position: absolute;
+            align-items: center;
+            font-size: 20px;
+            text-align: left;
+            border: 5px solid black;
+            top: 170px;
+            left: 900px;
+        }
+        .side {
+            background-color: white;
+            background-size: cover;
+            width: 400px;
+            height: 560px;
+            font-size: 30px;
+            position: absolute;
+            border: 10px solid black;
+    
+            top: 170px;
+            left: 40px;
+    
+        }
+  
+        </style>
+    </head>
+    <body>
+        <header id="header1" >
+            <img src="company_logo/carlogo.png" alt="logo" id="img1">
+            <h1 id="heading-1">
+                Library Management
+            </h1>
+        </header>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496124.34393927635!2d75.24920028022726!3d13.720179111079123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba8d0ec620495%3A0x5589d733c2761a17!2sShivamogga%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1738399782818!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="side">
+            <h1>
+                Contact Us
+            </h1>
+            
+            <label id="label1">
+                Name
+            </label>
+            <input type="text"><br>
+            <label id="label1">
+                phone number
+            </label>
+            <input type="number"><br>
+            <label id="label1">
+              Date
+            </label>
+            <input type="date"><br>
+            <p><label for="w3review"> Enter Text:</label></p>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">Enter your text hear</textarea>
+            <br>
+            <input type="submit" value="Submit">
+
+        </div>
+        
+    </body>
+</html>
